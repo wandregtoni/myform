@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    width: 40vw;
+    height: 90vh;
+    border-radius: 10px;
+    justify-content: center;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+#box .titulo {
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#box .subtitulo {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grupo {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 4%;
+}
+
+.campo label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.campo label[for="text"]  {
+    margin-left: 4%;
+
+}
+
+.campo input[type="email"]  {
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+.campo input[type="radio"]{
+    margin-left: 4%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.rad label[for="radi"]{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.rad label[for="snr"], .sel label[for="senioridade"] {
+    margin-bottom: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rad, .sel, #check {
+    margin-left: 4%;
+    padding-bottom: 2%;
+}
+#check {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 4%;
+}
+
+.rad input[type="radio"]{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sel select[class="test"] {
+    margin-top: 1%;
+}
+
+.camp {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 4%;
+    padding-bottom: 2%;
+
+}
+
+#botao {
+    font-size: 1.2em;
+    background: #646464; 
+    border: 0;
+    margin-bottom: 0.1em;
+    color: #ffffff ;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#botao:hover {
+    background: #cacaca;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+
+}
+
+.textarea {
+    margin-bottom: 1%;
+}
+
+#botao, select{
+    cursor: pointer;
+}
